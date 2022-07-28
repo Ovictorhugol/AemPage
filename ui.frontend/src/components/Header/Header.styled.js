@@ -2,7 +2,12 @@ import styled from "styled-components";
 
 export const ErrorText = styled.p`
   @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap");
-  font-family: "Inconsolata", monospace;
+  font-family: "Inconsolata", sans-serif;
   font-weight: 700;
   font-size: 1.25rem;
+  margin-left: 1rem;
+  @media (max-width: 768px) {
+    margin: 0;
+    font-size: 1.5rem;
+  }
 `;
