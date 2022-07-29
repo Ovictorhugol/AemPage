@@ -7,6 +7,7 @@ export const ErrorContainer = styled.div`
   font-family: "Space Mono", sans-serif !important;
 `;
 export const ErrorText = styled.p`
+  color: #4f4f4f;
   text-align: justify;
   font-weight: 400;
   font-size: 1.5rem;

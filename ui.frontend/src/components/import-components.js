@@ -23,6 +23,7 @@ import "./Header/Header";
 import "./TitleError/TitleError";
 import "./TextError/TextError";
 import "./ButtonError/ButtonError";
+import "./Footer/Footer";
 import MeuComponente from "./MeuComponente";
 
 import { MapTo } from "@adobe/aem-react-editable-components";
