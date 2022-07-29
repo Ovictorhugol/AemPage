@@ -6,6 +6,7 @@ export const ErrorText = styled.p`
   font-weight: 700;
   font-size: 1.25rem;
   margin-left: 1rem;
+  color: #333333;
   @media (max-width: 768px) {
     margin: 0;
     font-size: 1.5rem;
